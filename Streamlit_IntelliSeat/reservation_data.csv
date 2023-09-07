@@ -1,7 +1,3 @@
 reservation_id,employee_id,building_id,seat_id,date
 1,1.0,theSTUDY,1.0,2023-09-07
-2,,,,
-3,,,,
 4,1.0,theMEET,16.0,2023-09-07
-5,,,,
-6,,,,

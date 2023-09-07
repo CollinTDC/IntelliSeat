@@ -62,9 +62,9 @@ if share_with_friends:
     # Email configuration
     smtp_server = 'smtp.gmail.com'  # Replace with your SMTP server address
     smtp_port = 587  # Replace with your SMTP server port (usually 587 for TLS)
-    smtp_username = 'collinarendsen@gmail.com'  # Replace with your email address
+    smtp_username = ''  # Replace with your email address
     # Replace with your email address
-    smtp_password = 'vjnc evzg zqkz zdes'  # Replace with your email password
+    smtp_password = ''  # Replace with your email password
 
     invitation_text = (
         f"Hey Alberto Bacchelli,\n\n"
@@ -77,7 +77,7 @@ if share_with_friends:
         "Best regards,\nYour IntelliSeat Team"
     )
     
-    to_email = "thomas.hojsak@student.unisg.ch"
+    to_email = "alberto.bacchelli@student.unisg.ch"
     # Create the email message
     msg = MIMEMultipart()
     msg['From'] = smtp_username

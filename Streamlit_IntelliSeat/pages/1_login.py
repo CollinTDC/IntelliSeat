@@ -1,6 +1,5 @@
 #loading packages
 import streamlit as st
-from streamlit_extras.switch_page_button import switch_page
 import pages.employee as employee 
 import pandas as pd
 import app
@@ -24,7 +23,7 @@ with st.form(key='my_form'):
     if login:
 
         if firstname == "Admin" and lastname == "Admin":
-            switch_page("admin")
+            print("hello")
 
         check_employee = employee.check_employee(firstname, lastname)
 
@@ -38,7 +37,7 @@ with st.form(key='my_form'):
             employee_id = matching_employee.iloc[0]['employee_id']
             app.employee_id = employee_id
 
-            switch_page("building")
+            print("hello")
 
         else:
             st.text("Please enter a valid first and last name.")
